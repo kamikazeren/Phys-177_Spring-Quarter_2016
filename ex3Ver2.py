@@ -132,12 +132,15 @@ print 'Error is: ', AnalysisTrap, ' for a trapezoid'
 bins = 20
 h = (b-a)/bins
 A2 = simp(bins, a, b, h) ##area of 20 bins
-print 'Area of bins for simpson = 20: ', I2
+print 'Area of bins for simpson = 20: ', A2
 bins = 10
 h = (b-a)/bins
 A1 = simp(bins, a, b, h)
-print 'Area of bins for simpson = 10: ', I1
+print 'Area of bins for simpson = 10: ', A1
 
 print 'Error is: ', AnalysisSimp, ' for simpson'
+
+
+
 
 
