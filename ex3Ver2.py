@@ -140,7 +140,7 @@ print 'Area of bins for simpson = 10: ', A1
 
 print 'Error is: ', AnalysisSimp, ' for simpson'
 
-
+print 'True result: ', ActualResult
 
 
 
